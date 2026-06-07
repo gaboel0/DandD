@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: 'Cinzel', serif;
+  --font-cinzel-dec: 'Cinzel Decorative', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #0a0a0e;
+  color: #e2d4b7;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #111118; }
+::-webkit-scrollbar-thumb { background: rgba(201, 168, 76, 0.4); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(201, 168, 76, 0.7); }
+
+.page-bg {
+  background-image:
+    radial-gradient(circle at 10% 30%, rgba(80, 20, 20, 0.07) 0%, transparent 50%),
+    radial-gradient(circle at 90% 70%, rgba(20, 10, 60, 0.07) 0%, transparent 50%),
+    radial-gradient(#ffffff03 1px, transparent 1px);
+  background-size: auto, auto, 26px 26px;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #111118 25%, #1a1a26 50%, #111118 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite;
+}

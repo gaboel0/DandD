@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- d20: icosahedron face-on view -->
+  <!-- outer pentagon -->
+  <polygon points="50,4 96,34 79,88 21,88 4,34" fill="#1a1020" stroke="#c9a84c" stroke-width="3"/>
+  <!-- inner top triangle -->
+  <polygon points="50,14 84,36 16,36" fill="none" stroke="#c9a84c" stroke-width="1.8"/>
+  <!-- left lower triangle -->
+  <polygon points="16,36 21,84 50,58" fill="none" stroke="#c9a84c" stroke-width="1.8"/>
+  <!-- right lower triangle -->
+  <polygon points="84,36 79,84 50,58" fill="none" stroke="#c9a84c" stroke-width="1.8"/>
+  <!-- bottom triangle -->
+  <polygon points="21,84 79,84 50,58" fill="none" stroke="#c9a84c" stroke-width="1.8"/>
+  <!-- center lines -->
+  <line x1="50" y1="14" x2="50" y2="58" stroke="#c9a84c" stroke-width="1.8" opacity="0.5"/>
+  <line x1="84" y1="36" x2="21" y2="84" stroke="#c9a84c" stroke-width="1.8" opacity="0.5"/>
+  <line x1="16" y1="36" x2="79" y2="84" stroke="#c9a84c" stroke-width="1.8" opacity="0.5"/>
+  <!-- "20" text in center -->
+  <text x="50" y="50" text-anchor="middle" dominant-baseline="middle" font-family="serif" font-weight="bold" font-size="17" fill="#c9a84c" letter-spacing="-1">20</text>
+</svg>
